@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 function App() {
   const [data, setData] = useState("");
   async function fetchAssignmentData() {
-    const url = "http://localhost:3001/api/get-answer";
+    const url = "http://13.60.162.190:3001/api/get-answer";
 
     try {
       const response = await fetch(url, {
